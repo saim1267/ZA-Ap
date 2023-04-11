@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/flipper"
+            android:layout_gravity="center">
+        <GridLayout
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15px"
+            android:layout_marginTop="100dp"
+            android:columnCount="4"
+            android:rowCount="4">
+            <com.ortiz.touchview.TouchImageView
+                android:layout_width="200dp"
+                android:layout_height="203dp"
+                android:src="@drawable/home19" />
+
+            <com.ortiz.touchview.TouchImageView
+                android:layout_width="200dp"
+                android:layout_height="203dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:src="@drawable/home4" />
+
+            <com.ortiz.touchview.TouchImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:src="@drawable/home3" />
+
+            <com.ortiz.touchview.TouchImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:src="@drawable/home5" />
+        </GridLayout>
+        </ViewFlipper>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+            <TableRow
+                android:background="@color/Green_500">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/col1"
+                    android:padding="10sp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/col2"
+                    android:textColor="@color/white"
+                    android:padding="10sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text="@string/col3"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row1"
+                    android:padding="10sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row2"
+                    android:padding="10sp"
+                    android:textSize="20sp"
+                    android:layout_weight="9"
+                    android:gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="74dp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text="@string/row3"
+                    android:textSize="20sp" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row1"
+                    android:padding="10sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row2"
+                    android:padding="10sp"
+                    android:textSize="20sp"
+                    android:layout_weight="9"
+                    android:gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="74dp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text="@string/row4"
+                    android:textSize="20sp" />
+
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asking Price:11M"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textFontWeight="600"
+            android:layout_margin="10dp"/>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                android:text="Offer Price:"
+                android:textColor="@color/black"
+                android:textFontWeight="600"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:textSize="25dp"
+            android:textFontWeight="300"
+                android:layout_marginRight="10dp"
+            android:textAlignment="center"
+                android:inputType="number"
+            android:textStyle="bold"/>
+        </GridLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:fitsSystemWindows="true"
+            app:menu="@menu/bottom_nav_menu"/>
+
+    </LinearLayout>
+</ScrollView>

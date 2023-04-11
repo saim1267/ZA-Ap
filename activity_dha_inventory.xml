@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".Dha_inventory">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp">
+
+        <com.ortiz.touchview.TouchImageView
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:src="@drawable/home39" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="5 Marla Plots in DHA"
+            android:textAlignment="center"
+            android:textColor="@color/Green_500"
+            android:textSize="48px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_height="100dp"
+            android:layout_width="130dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:textAlignment="center"
+            android:text="Get your 5 Marla plot in prime location of DHA.Make your dream house with Zafar Associates."/>
+
+        <Button
+            android:id="@+id/Maral_5_Details"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="View Details" />
+<!--        //2nd Card-->
+        <com.ortiz.touchview.TouchImageView
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:layout_row="0"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/home40" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="8 Marla Plots in DHA"
+            android:textAlignment="center"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/Green_500"
+            android:textSize="48px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_marginLeft="5dp"
+            android:text="Get your 8 Marla plot in prime location of DHA.Make your dream house with Zafar Associates."
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/Marla_8_Details"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_marginLeft="5dp"
+            android:text="View Details" />
+<!--        //3rd card start-->
+        <com.ortiz.touchview.TouchImageView
+            android:layout_width="112dp"
+            android:layout_height="200dp"
+            android:layout_row="0"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/home41" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_marginLeft="0dp"
+            android:text="10 Marla Plots in DHA"
+            android:textAlignment="center"
+            android:textColor="@color/Green_500"
+            android:textSize="47px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="104dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:text="Get your 10 Marla plot in prime location of DHA.Make your dream house with Zafar Associates."
+            android:textAlignment="center"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/Marla_10_Details"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_marginLeft="10dp"
+            android:text="View Details" />
+<!--        // 4th card start-->
+
+        <com.ortiz.touchview.TouchImageView
+            android:layout_width="130dp"
+            android:layout_height="177dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/home42" />
+
+        <TextView
+            android:layout_width="131dp"
+            android:layout_height="43dp"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:text="1 Kanal  Plots in DHA"
+            android:textAlignment="center"
+            android:textColor="@color/Green_500"
+            android:textSize="48px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="104dp"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:text="Get your 1 kanal plot in prime location of DHA.Make your dream house with Zafar Associates."
+            android:textAlignment="center"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/kanal_1_Details"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:text="View Details" />
+<!--        //5th card start-->
+        <com.ortiz.touchview.TouchImageView
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:layout_row="4"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/home42" />
+        <TextView
+            android:layout_width="131dp"
+            android:layout_height="48dp"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:text="2 Kanal Plots in DHA"
+            android:textAlignment="center"
+            android:textColor="@color/Green_500"
+            android:textSize="48px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="104dp"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:text="Get your 2 kanal plot in prime location of DHA.Make your dream house with Zafar Associates."
+            android:textAlignment="center"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/kanal_2_Details"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:text="View Details" />
+<!--        6th card start-->
+        <com.ortiz.touchview.TouchImageView
+            android:layout_width="114dp"
+            android:layout_height="200dp"
+            android:layout_row="4"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/home42" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="50dp"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:layout_marginLeft="10dp"
+            android:text="2 Marla Plots in DHA"
+            android:textAlignment="center"
+            android:textColor="@color/Green_500"
+            android:textSize="48px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="104dp"
+            android:layout_row="6"
+            android:layout_column="2"
+            android:text="Get your 10 Marla plot in prime location of DHA.Make your dream house with Zafar Associates."
+            android:textAlignment="center"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/Marla_2_Details"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="2"
+            android:layout_marginLeft="10dp"
+            android:text="View Details" />
+<!--        //7th card start-->
+        <com.ortiz.touchview.TouchImageView
+            android:layout_width="114dp"
+            android:layout_height="200dp"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/home42" />
+
+        <TextView
+            android:layout_width="126dp"
+            android:layout_height="48dp"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:text="4 Marla Plots in DHA"
+            android:textAlignment="center"
+            android:textColor="@color/Green_500"
+            android:textSize="48px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="104dp"
+            android:layout_row="10"
+            android:layout_column="0"
+            android:text="Get your 4 Marla plot in prime location of DHA.Make your dream house with Zafar Associates."
+            android:textAlignment="center"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/Marla_4_Details"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_row="11"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:text="View Details" />
+<!--        8th card start-->
+    </GridLayout>
+
+</ScrollView>

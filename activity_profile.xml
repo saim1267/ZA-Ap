@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/b11"
+    android:layout_height="wrap_content"
+    tools:context=".Profile">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:orientation="vertical">
+   <TextView
+      android:id="@+id/textview"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="Sign in"
+      android:textColor="#ffff"
+      android:textSize="40dp"
+       android:layout_marginTop="50dp"
+       android:layout_marginLeft="120dp"/>
+
+      <EditText
+          android:id="@+id/email"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="16dp"
+          android:layout_marginLeft="145dp"
+          android:layout_marginEnd="16dp"
+          android:layout_marginTop="60dp"
+          android:ems="15"
+          android:hint="username"
+          android:inputType="textPersonName"
+          android:padding="10dp"
+          android:textColorHint="#ffff"
+          android:textSize="15dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/textview"
+          app:layout_constraintVertical_bias="0.13999" />
+      <EditText
+          android:id="@+id/password"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="16dp"
+          android:layout_marginLeft="145dp"
+          android:layout_marginEnd="16dp"
+          android:layout_marginTop="20dp"
+          android:ems="15"
+          android:hint="Password"
+          android:inputType="textPersonName"
+          android:padding="10dp"
+          android:textColorHint="#ffff"
+          android:textSize="15dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/textview"
+          app:layout_constraintVertical_bias="0.13999" />
+
+
+      <Button
+          android:id="@+id/loginBtn"
+          android:layout_width="298dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="50dp"
+          android:layout_marginTop="60dp"
+          android:layout_marginEnd="50dp"
+          android:padding="15dp"
+          android:text="Login"
+          android:background="@color/Green_500"
+          android:textSize="20sp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/password" />
+
+
+      <com.google.android.material.bottomnavigation.BottomNavigationView
+       android:id="@+id/bottomNavigationView"
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:fitsSystemWindows="true"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="parent"
+       android:layout_marginTop="260dp"
+       app:menu="@menu/bottom_nav_menu" />
+   </LinearLayout>
+</RelativeLayout>
